@@ -64,10 +64,6 @@ h6 {
     background-color: #f7f7f7;
 }
 
-.bg-darkest-gray {
-    background-color: #553018;
-}
-
 .btn-primary {
     border-color: #D4B96A;
     text-transform: uppercase;
@@ -91,30 +87,6 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     background-image: none;
-}
-
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
-    border-color: #D4B96A;
-    background-color: #D4B96A;
-}
-
-.btn-primary .badge {
-    color: #D4B96A;
-    background-color: #fff;
 }
 
 .btn-xl {
@@ -143,30 +115,6 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     background-image: none;
-}
-
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
-    border-color: #D4B96A;
-    background-color: #D4B96A;
-}
-
-.btn-xl .badge {
-    color: #D4B96A;
-    background-color: #fff;
 }
 
 .navbar-default {
@@ -265,7 +213,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.png);
+    background-image: url(../img/header-bg-low.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -392,11 +340,6 @@ section h3.section-subheading {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-    margin: 0;
-}
-
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
@@ -447,10 +390,6 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
-    margin: 50px auto;
-}
-
 section#contact {
     background-color: #553018;
     background-image: url(../img/map-image.png);
@@ -460,28 +399,6 @@ section#contact {
 
 section#contact .section-heading {
     color: #fff;
-}
-
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #D4B96A;
-    box-shadow: none;
 }
 
 section#contact::-webkit-input-placeholder {
@@ -510,55 +427,6 @@ section#contact:-ms-input-placeholder {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
-
-footer {
-    padding: 25px 0;
-    text-align: center;
-}
-
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-}
-
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    line-height: 40px;
-}
-
-ul.social-buttons {
-    margin-bottom: 0;
-}
-
-ul.social-buttons li a {
-    display: block;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    font-size: 20px;
-    line-height: 40px;
-    outline: 0;
-    color: #fff;
-    background-color: #553018;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    transition: all .3s;
-}
-
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
-    background-color: #D4B96A;
 }
 
 .btn:focus,
@@ -637,11 +505,6 @@ ul.social-buttons li a:active {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
-
-.portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
 }
 
 ::-moz-selection {
